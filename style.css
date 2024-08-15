@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #e5e5e5;
+}
+
+.encrip-result {
+    display: flex;
+}
+
+.logo {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 120px;
+    height: 48px;
+}
+
+
+.texto-encriptar-des {
+    border: none;
+    background-color: #e5e5e5;
+    margin-top: 164px;
+    margin-left: 240px;
+    width: 577px;
+    height: 350px;
+    font-size: 32px;
+    color: #0A3871;
+    font-family: 'Inter';
+    resize: none;
+    max-width: 680px;
+}
+
+.texto-encriptar-des::placeholder {
+    color: #0A3871;
+}
+
+.texto-encriptar-des:focus {
+    outline: none;
+}
+
+.sugerencia {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.exclamation {
+    width: 16px;
+    height: 16px;
+}
+
+.warning-text {
+    font-family: 'Inter';
+    font-size: 12px;
+    color: #495057
+}
+
+.botones-encrip-des {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    bottom: 72px;
+    left: 240px;
+}
+.botones {
+    display: flex;
+    gap: 24px;
+}
+
+.boton-en-des {
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    gap: 8px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    justify-content: center;
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.texto-boton {
+    font-family: 'Inter';
+    font-size: 16px;
+    color: #fff;
+}
+
+.panel {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    bottom: 40px;
+    width: 400px;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
